@@ -1,0 +1,3 @@
+char *png = "${PNG_DIR}";
+char *gl = "${OpenCL_LIBRARY}";
+char *dir = "${CMAKE_INSTALL_LIBDIR}";

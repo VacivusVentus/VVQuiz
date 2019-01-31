@@ -1,4 +1,6 @@
 #include <iostream>
+#include <windows.h> 
+#include <gl/GL.h>
 #include <GLFW/glfw3.h>
 
 int  main()
