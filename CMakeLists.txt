@@ -5,6 +5,7 @@ project(VVQuiz)
 set(PNG_INCLUDE ${PROJECT_SOURCE_DIR}/lodepng)
 
 subdirs(lodepng)
+subdirs(VVDB)
 subdirs(Tools)
 subdirs(glfw)
 subdirs(VVQuiz)

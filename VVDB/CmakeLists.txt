@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.2)
+
+project(VVDataBase)
+
+
+file (GLOB VVDATABASESOURSE *.cpp *.hpp)
+add_library(${PROJECT_NAME} STATIC ${VVDATABASESOURSE})
+
+add_library(db::baselibrary ALIAS ${PROJECT_NAME})
+
+SET(VVBASE_DIR "${PROJECT_SOURCE_DIR}" PARENT_SCOPE)

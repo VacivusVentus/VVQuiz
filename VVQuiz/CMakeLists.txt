@@ -6,6 +6,7 @@ include_directories("../glfw/include")
 file(GLOB CPPS *.cpp *.h *.c)
 
 include_directories(${PNG_INCLUDE})
+include_directories(${VVBASE_DIR})
 
 add_executable(${PROJECT_NAME} ${CPPS})
 
