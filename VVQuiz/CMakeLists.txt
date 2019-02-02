@@ -3,7 +3,7 @@ project(VVQuiz)
 
 include_directories("../glfw/include")
 
-file(GLOB CPPS *.cpp *.h *.c)
+file(GLOB CPPS *.cpp *.h *.c *.hpp)
 
 include_directories(${PNG_INCLUDE})
 include_directories(${VVBASE_DIR})
